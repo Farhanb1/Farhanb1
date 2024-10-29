@@ -1,3 +1,4 @@
+```c
 #include <life.h>
 
 #define GREETINGS "HELLO THERE 👋🏻"
@@ -14,10 +15,9 @@ typedef struct {
         char* programming[3];
         char* computer[3];
     } Languages;
-    char* Interests[3];
+    char* Interests[2];
     struct {
         char* Instagram;
-        
     } Connect;
 } Profile;
 
@@ -49,8 +49,8 @@ void getProfileDetails(Profile* Me) {
     Me->Interests[2] = "Swimming";  
 
     // How to reach me in case you want to talk about programming or pizza
-    Me->Connect.Instagram = "F_A_R_H_A_N_107";
-  
+    Me->Connect.Instagram = "F_A_R_A_HA_N_107";
+    
 }
 
 int main() {
@@ -64,3 +64,4 @@ int main() {
 
     return 0;  // Ending the program, but not the fun!
 }
+```
